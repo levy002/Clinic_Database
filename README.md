@@ -2,6 +2,16 @@
 
 <img src='./drawSQL.png' alt='diagram' >
 
+## Built With
+
+- SQL
+
+### Prerequisites
+
+- PostgreSQL
+- Git/Github
+- VSCode or another equivalent tool
+
 ## Authors
 
 👤 **Levy**
