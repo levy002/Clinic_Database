@@ -2,7 +2,7 @@
 
 CREATE TABLE patients(
     id SERIAL PRIMARY KEY NOT NULL,
-    name VERCHAR(255),
+    name VERCHAR(150),
     date_of_birth DATE
 );
 
@@ -10,14 +10,14 @@ CREATE TABLE medical_histories(
     id SERIAL PRIMARY KEY NOT NULL,
     admitted_at TIMESTAMP,
     patient_id BIGINT,
-    status VARCHAR(255),
+    status VARCHAR(50),
     FOREIGN KEY (patient_id) REFERENCES patients (id)
 );
 
 CREATE TABLE treatments(
     id SERIAL PRIMARY KEY NOT NULL,
-    type VARCHAR(255),
-    name VARCHAR(255)
+    type VARCHAR(100),
+    name VARCHAR(100)
 );
 
 CREATE TABLE medical_treatments(
@@ -28,14 +28,14 @@ CREATE TABLE medical_treatments(
     FOREIGN KEY (treatment_id) REFERENCES treatments (id)
 );
 
-CREATE TABLE invoices((
+CREATE TABLE invoices(
     id SERIAL PRIMARY KEY NOT NULL,
     total_amount DECIMAL,
     generated_at TIMESTAMP,
     payed_at TIMESTAMP,
-    medical_history_id,
+    medical_history_id INT,
     FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id)
-))
+);
 
 CREATE TABLE invoice_items(
     id SERIAL PRIMARY KEY NOT NULL,
