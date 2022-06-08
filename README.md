@@ -4,15 +4,18 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Levy**
 
 - GitHub: [@githubhandle](https://github.com/levy002)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/levy-ukwishaka/)
 
-👤 **Author2**
+👤 **Matchoudi**
 
 - GitHub: [@githubhandle](https://github.com/LionRouge1)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+-- Twitter: [@Matchoudi1](https://twitter.com/Matchoudi1)
+- LinkedIn: [matchoudi](https://linkedin.com/in/matchoudi)
+
+### Clone this repository : `git@github.com:levy002/Clinic_Database.git`
 
 ## 🤝 Contributing
 
