@@ -1,31 +1,31 @@
-# curriculum-databases-projects-template
+### Clinic Database
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+<img src='./drawSQL.png' alt='diagram' >
 
+## Built With
 
-## Getting Started
+- SQL
 
-This repository includes files with plain SQL that can be used to recreate a database:
+### Prerequisites
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
+- PostgreSQL
+- Git/Github
+- VSCode or another equivalent tool
 
 ## Authors
 
-👤 **Author1**
+👤 **Levy**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/levy002)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/levy-ukwishaka/)
 
-👤 **Author2**
+👤 **Matchoudi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/LionRouge1)
+-- Twitter: [@Matchoudi1](https://twitter.com/Matchoudi1)
+- LinkedIn: [matchoudi](https://linkedin.com/in/matchoudi)
+
+### Clone this repository : `git@github.com:levy002/Clinic_Database.git`
 
 ## 🤝 Contributing
 
